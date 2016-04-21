@@ -1,0 +1,65 @@
+# Site wide configuration
+
+title:            Dynamode Lab
+locale:           en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    redcarpet
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll/scholar
+
+# Site owner
+owner:
+  name: Dynamode Lab
+  avatar: W-Logo_Purple_Hex.png
+  bio: "Emily B. Fox's research group at the University of Washington."
+  email:
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: dynamode #username
+  stackoverflow: #123456/username from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+
+# Jekyll Scholar Bibtex Formatting
+scholar:
+  style: apa 
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: ./_bibliography
+  bibliography: pubs.bib
+  bibliography_template: bib 
+
+  replace_strings: true
+  join_strings:    true
+
+#  details_dir:    bibliography
+#  details_layout: bib_details.html
+#  details_link:   " Details"
+
+  query: "@*"
+
+  repository: ./pdf
+
+# Other Stuff
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md","build.sh","update-master.sh"]

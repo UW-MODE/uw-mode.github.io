@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+#- title: Blog # Hiding Blog For Now
+#  url: /posts/
+
+- title: People
+  url: /people/
+
+# - title: Projects # Hiding Projects For Now
+#  url: /projects/
+
+- title: Publications
+  url: /publications/
+
+- title: Software
+  url: https://github.com/dynamode
+
+- title: Wiki
+  url: https://www.stat.washington.edu/research/group/dyna-mode/doku.php
