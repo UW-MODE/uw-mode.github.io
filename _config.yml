@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Dynamode Lab
+title:            UW Mode Lab
 locale:           en_US
 url:
 
@@ -19,9 +19,9 @@ gems:
 
 # Site owner
 owner:
-  name: Dynamode Lab
+  name: UW Mode Lab
   avatar: W-Logo_Purple_Hex.png
-  bio: "Emily B. Fox's research group at the University of Washington."
+  bio: "Carlos Guestrin and Emily B. Fox's research group at the University of Washington."
   email:
   disqus-shortname:
   twitter: #username
@@ -33,7 +33,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: dynamode #username
+  github: UW-MODE #username
   stackoverflow: #123456/username from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
 

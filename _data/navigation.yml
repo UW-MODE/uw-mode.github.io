@@ -9,14 +9,11 @@
 - title: People
   url: /people/
 
-# - title: Projects # Hiding Projects For Now
-#  url: /projects/
+- title: Projects
+  url: /projects/
 
 - title: Publications
   url: /publications/
 
 - title: Software
-  url: https://github.com/dynamode
-
-- title: Wiki
-  url: https://www.stat.washington.edu/research/group/dyna-mode/doku.php
+  url: https://github.com/uw-mode
