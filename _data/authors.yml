@@ -1,0 +1,113 @@
+# Authors
+
+# userid:
+#   name: First Last
+#   email: my email [at] server
+#   web: https://www.my-website.com
+#   bio: Few line bio goes here
+#   avatar: photo in /images folder
+#   github:
+#   linkedin:
+
+# # example
+# tng_enterprise:
+#     name: USS Enterprise
+#     web: https://en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701-D)
+#     bio: 24th century starship. The Enterprise-D is a Galaxy-class ship and the
+#         sixth Federation starship to carry the name Enterprise.
+#     avatar: TNGEnterprise.jpg
+
+yianma:
+    name: Yian Ma (Yi-An Ma)
+    email: yianma@u.washington.edu
+    web: http://scholar.google.com/citations?user=26KvT9kAAAAJ&hl=en
+    bio: I am a PhD student in applied math. My research interests are sampling methods for Bayesian inference, stochastic processes, dynamical systems, and nonequilibrium statistical mechanics.
+    avatar: yianma.jpg
+    github: yianma
+
+atank:
+    name: Alex Tank
+    email:
+    web: https://students.washington.edu/alextank/
+    bio: I am a PhD student in Statistics studying statistical learning approaches to multivariate time series and associated scalable inference.
+    avatar: atank.png
+    github: atank
+    linkedin:
+
+christopher_aicher:
+    name: Christopher Aicher
+    email:
+    web: https://aicherc.github.io
+    bio: I am a PhD student in statistics. My research is in approximate
+        inference for statistical machine learning.
+    avatar: christopher_aicher.png
+    github: aicherc
+    linkedin: aicherc
+
+nfoti:
+    name: Nicholas Foti
+    email:
+    web: https://nfoti.github.io
+    bio: I am a Washington Research Foundation Innovations Postdoctoral Fellow
+         in data science and neuroengineering. I am interested in developing models
+         for high-dimensional time series and developing scalable inference algorithms.
+    avatar: foti_self.jpg
+    github: nfoti
+
+chris_xie:
+    name: Chris Xie
+    email:
+    web: https://chrisdxie.github.io
+    bio: I am a PhD student in the Computer Science and Engineering department. I am interested in
+         statistical machine learning and artificial intelligence.
+    avatar: chris_xie.jpg
+    github: chrisdxie
+    linkedin: chrisdxie
+
+jiaqi_yin:
+    name: Jiaqi Yin
+    email:
+    web: http://students.washington.edu/jiaqiyin/
+    bio: I am a first-year PhD student in the Department of Biostatistcs. My research is multivariate time series.
+    avatar: JiaqiYin.jpg
+    github: placeboo
+    linkedin: jiaqiyin
+
+
+alec_gt:
+    name: Alec Greaves-Tunnell
+    email:
+    web:
+    bio: I'm a first year PhD student in Statistics interested in time series inference, particularly in the streaming setting. Before coming to Seattle, I was a Herchel Smith Scholar at the University of Cambridge, where I studied Computational Biology and Neuroscience.
+    avatar: alec_gt.jpg
+    github: alecgt
+    linkedin: alecgreavestunnell
+
+tqchen:
+    name: Tianqi Chen
+    email: tqchen@cs.washington.edu
+    web: http://homes.cs.washington.edu/~tqchen/
+    bio: Tianqi is a third year PhD in Computer Science and Engineering. He is interested in large scale machine learning
+    avatar: tqchen-head.jpg
+    github: tqchen
+
+tbjohns:
+    name: Tyler Johnson
+    email:
+    web: http://tbjohns.com/
+    bio: Tianqi is a 4th year PhD in Computer Science and Engineering.
+    avatar: tyler-head.jpg
+
+marcotcr:
+    name: Marco Tulio Ribeiro
+    email:
+    web: http://homes.cs.washington.edu/~marcotcr/
+    bio: Marco is a 3th year PhD in Computer Science and Engineering.
+    avatar: marco-head.jpg
+
+chohyu:
+    name: Hyunsu Cho
+    email: chohyu01@cs.washington.edu
+    web: http://homes.cs.washington.edu/~chohyu01
+    bio: Hyunsu is a 1st year PhD in Computer Science and Engineering.
+    avatar: hyunsu-head.jpg

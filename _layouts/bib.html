@@ -1,0 +1,14 @@
+---
+---
+{{reference}}
+
+{% if entry.link %}
+<a href={{entry.link}} > PDF </a> 
+{% else %}
+<a href={{site.url}}/pdf/{{entry.key}}.pdf> PDF </a>
+{% endif %}
+&nbsp
+<details style="display:inline">
+<summary>BibTex</summary>
+<pre> {{entry.bibtex}}  </pre>
+</details>

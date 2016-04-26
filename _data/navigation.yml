@@ -1,0 +1,19 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+#- title: Blog # Hiding Blog For Now
+#  url: /posts/
+
+- title: People
+  url: /people/
+
+- title: Projects
+  url: /projects/
+
+- title: Publications
+  url: /publications/
+
+- title: Software
+  url: https://github.com/uw-mode

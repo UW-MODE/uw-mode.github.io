@@ -1,0 +1,27 @@
+---
+layout: page
+title: Publication Details
+share: true
+---
+
+<html>
+
+<a href="{{ page.entry.link }}">
+  <h3><center>{{ page.entry.title }}</center></h3>
+</a>
+
+<h4><center>{{ page.entry.author }}</center></h4>
+<hr>
+
+{{ page.entry.abstract }}
+
+<div style="clear:both"></div>
+
+<hr>
+<pre>
+ {% highlight tex %}
+ {{ page.entry.bibtex }}
+ {% endhighlight %}
+</pre>
+
+</html>
