@@ -13,5 +13,9 @@
 
 <details style="display:inline">
 <summary>BibTex</summary>
-<pre> {{entry.bibtex}}  </pre>
+{{entry.bibtex}}
 </details>
+
+{% if entry.code %}
+[<a href={{entry.code}} > Code </a>]
+{% endif %}
