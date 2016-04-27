@@ -1,7 +1,10 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: Home
+  url: /
+
+#- title: About # About page is redundant
+#  url: /about/
 
 #- title: Blog # Hiding Blog For Now
 #  url: /posts/
@@ -15,5 +18,5 @@
 - title: Publications
   url: /publications/
 
-- title: Software
-  url: https://github.com/uw-mode
+# - title: Software # Hiding link to GitHub for now
+#  url: https://github.com/uw-mode
