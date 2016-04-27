@@ -5,14 +5,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>All Posts &#8211; UW Mode Lab</title>
-<meta name="description" content="A List of Posts">
+<title>UW Mode Lab</title>
+
 <meta name="keywords" content="">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="All Posts">
-<meta name="twitter:description" content="A List of Posts">
+<meta name="twitter:title" content="UW Mode Lab">
+
 
 
 
@@ -22,9 +22,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="All Posts">
-<meta property="og:description" content="A List of Posts">
-<meta property="og:url" content="/posts/">
+<meta property="og:title" content="UW Mode Lab">
+
+<meta property="og:url" content="/projects/sgmcmc/">
 <meta property="og:site_name" content="UW Mode Lab">
 
 <meta property="og:image" content="/images/default-thumb.png">
@@ -34,7 +34,7 @@
 
 
 
-<link rel="canonical" href="/posts/">
+<link rel="canonical" href="/projects/sgmcmc/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="UW Mode Lab Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -80,7 +80,7 @@ MathJax.Hub.Config({
 
 </head>
 
-<body class="post-index">
+<body class="page">
 
 <!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
 
@@ -150,12 +150,27 @@ MathJax.Hub.Config({
 </div>
 
   </div>
-  <div id="index">
-    <h1>All Posts</h1>
+  <article class="page">
+    <h1></h1>
+    <div class="article-wrap">
+      <h1>Stochastic Gradient Markov Chain Monte Carlo</h1>
+
+<p>Many recent Markov chain Monte Carlo (MCMC) samplers leverage continuous dynamics to define a transition kernel that efficiently explores a target distribution. In tandem, a focus has been on devising scalable variants that subsample the data and use stochastic gradients in place of full-data gradients in the dynamic simulations. However, such stochastic gradient MCMC samplers have lagged behind their full-data counterparts in terms of the complexity of dynamics considered since proving convergence in the presence of the stochastic gradient noise is non-trivial. Even with simple dynamics, significant physical intuition is often required to modify the dynamical system to account for the stochastic gradient noise. In this paper, we provide a general recipe for constructing MCMC samplers--including stochastic gradient versions--based on continuous Markov processes specified via two matrices. We constructively prove that the framework is complete. That is, any continuous Markov process that provides samples from the target distribution can be written in our framework. We show how previous continuous-dynamic samplers can be trivially &quot;reinvented&quot; in our framework, avoiding the complicated sampler-specific proofs. We likewise use our recipe to straightforwardly propose a new state-adaptive sampler: stochastic gradient Riemann Hamiltonian Monte Carlo (SGRHMC). Our experiments on simulated data and a streaming Wikipedia analysis demonstrate that the proposed SGRHMC sampler inherits the benefits of Riemann HMC, with the scalability of stochastic gradient methods.</p>
+
+<h2>Publications</h2>
+
+<ul>
+<li><a href="http://arxiv.org/abs/1506.04696">A Complete Recipe for Stochastic Gradient MCMC</a>
+Yi&#39;an Ma, Tianqi Chen, Emily Fox, <em>NIPS 2015</em></li>
+<li><a href="http://arxiv.org/abs/1402.4102">Stochastic Gradient Hamiltonian Monte Carlo</a>
+Tianqi Chen, Emily B. Fox, Carlos Guestrin. <em>ICML 2014</em></li>
+</ul>
+
+      
+    </div><!-- /.article-wrap -->
     
-    
-  </div><!-- /#index -->
-</div><!-- /#main -->
+  </article>
+</div><!-- /#index -->
 
 <div class="footer-wrap">
   <footer>
