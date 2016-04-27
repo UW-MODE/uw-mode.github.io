@@ -1,13 +1,16 @@
 ---
 ---
-{{reference}}
-
 {% if entry.link %}
-<a href={{entry.link}} > PDF </a> 
+<a href={{entry.link}} > {{entry.title}} </a>
 {% else %}
-<a href={{site.url}}/pdf/{{entry.key}}.pdf> PDF </a>
+<a href={{site.url}}/pdf/{{entry.key}}.pdf> {{entry.title}} </a>
 {% endif %}
-&nbsp
+</br>
+{{entry.author}}
+</br>
+{{entry.booktitle}} {{entry.year}}
+</br>
+
 <details style="display:inline">
 <summary>BibTex</summary>
 <pre> {{entry.bibtex}}  </pre>
