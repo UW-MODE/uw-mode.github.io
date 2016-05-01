@@ -21,7 +21,7 @@ gems:
 owner:
   name: UW Mode Lab
   avatar: W-Logo_Purple_Hex.png
-  bio: "Carlos Guestrin and Emily B. Fox's research group at the University of Washington."
+  bio: "Emily B. Fox and Carlos Guestrin's research group at the University of Washington."
   email:
   disqus-shortname:
   twitter: #username
@@ -39,7 +39,7 @@ owner:
 
 # Jekyll Scholar Bibtex Formatting
 scholar:
-  style: apa 
+  style: apa
   locale: en
 
   sort_by: year
@@ -47,7 +47,7 @@ scholar:
 
   source: ./_bibliography
   bibliography: pubs.bib
-  bibliography_template: bib 
+  bibliography_template: bib
 
   replace_strings: true
   join_strings:    true
