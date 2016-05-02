@@ -20,3 +20,21 @@ Many recent Markov chain Monte Carlo (MCMC) samplers leverage continuous dynamic
 However, such stochastic gradient MCMC samplers have lagged behind their full-data counterparts in terms of the complexity of dynamics considered since proving convergence in the presence of the stochastic gradient noise is non-trivial. Even with simple dynamics, significant physical intuition is often required to modify the dynamical system to account for the stochastic gradient noise. This project aims to provide a general recipe for constructing MCMC samplers.
 
 [Project link](sgmcmc)
+
+### [LIME: Local Interpretable Model-Agnostic Explanations](https://github.com/marcotcr/lime)
+
+This project is about explaining the predictions of **black-box** models in an
+**interpretable** and **faithful** way. 
+Understanding why a model makes certain predictions empowers users to decide
+whether they should trust the prediction or not.
+A system designer who understands why their model is making certain predictions is
+certainly better equipped to improve it by means of feature engineering,
+parameter tuning, or even by replacing the model with a different one.
+
+We have an open source python package (linked below). Right now, we support text
+and tabular data models. All we require is that the classifier implements a
+function that takes in raw text or a numpy array and outputs a probability for
+each class. Support for scikit-learn classifiers is built-in.  
+[Project link (github)](https://github.com/marcotcr/lime)  
+[Blog post with high level view](http://homes.cs.washington.edu/~marcotcr/blog/lime/)  
+[Pre-print paper](http://arxiv.org/abs/1602.04938)
