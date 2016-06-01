@@ -46,6 +46,25 @@ In this paper, we introduce a paradigm for learning low-dimensional embeddings o
 
 [Project link](logicmf)
 
+### [Graphical Models for Time Series Using Fourier Representations](gmts)
+MODE members: Alex Tank, Nick Foti, Rahul Nadkarni, Jiaqi Yin
+
+The spectral representation of time series provides valuable insights into the interactions
+within highly multivariate time series. We are actively developing and applying modern
+statistical methods to perform inference in the spectral domain. Specifically, we have developed a
+Bayesian graphical model to uncover the conditional independencies of the set of time series and applied our algorithm
+to uncover graphs in both MEG neuroscience data and international stock indices.
+
+Current related projects in the group include:
+- A convex optimization framework for uncovering time series graphs under
+  the presence of latent, unobserved time series using sparse plus low rank formulation and associated penalties. </li>
+- A low rank Bayesian
+  nonparametric method for time frequency estimation of the spectral density matrix for high dimensional
+ locally stationary time series.
+
+[Bayesian graphs of time series paper](http://arxiv.org/abs/1505.03131)
+
+
 
 ### [Reddatait: Analyzing over a TB of Reddit Comments to Construct the Largest Publicly Available Social Network Evolution Dataset](http://homes.cs.washington.edu/~fire/reddatait/)
 <img src="../images/reddatait.jpg" width=150/>
