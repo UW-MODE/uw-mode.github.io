@@ -4,7 +4,7 @@ title: Software
 tags: []
 ---
 
-### [XGBoost: A Scalable Tree Boosting System]((http://dmlc.cs.washington.edu/xgboost.html)
+### [XGBoost: A Scalable Tree Boosting System](http://dmlc.cs.washington.edu/xgboost.html)
 
 XGBoost is an optimized distributed gradient boosting system that comes with both algorithmic and system improvements.
 It is designed to be highly **efficient**, **flexible** and **portable**
