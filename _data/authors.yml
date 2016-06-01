@@ -91,6 +91,14 @@ alec_gt:
     github: alecgt
     linkedin: alecgreavestunnell
 
+sameer:
+    name: Sameer Singh
+    email: sameer@cs.washington.edu
+    web: http://sameersingh.org/
+    bio: Sameer is a Postdoctoral Research Associate in CSE working on interactive machine learning for large-scale information extraction and natural language processing.
+    avatar: sameer-head.jpg
+    github: sameersingh
+
 tqchen:
     name: Tianqi Chen
     email: tqchen@cs.washington.edu
