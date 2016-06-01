@@ -38,3 +38,24 @@ each class. Support for scikit-learn classifiers is built-in.
 [Project link (github)](https://github.com/marcotcr/lime)  
 [Blog post with high level view](http://homes.cs.washington.edu/~marcotcr/blog/lime/)  
 [Pre-print paper](http://arxiv.org/abs/1602.04938)
+
+### [Graphical Models for Time Series Using Fourier Representations](gmts)
+MODE members: Alex Tank, Nick Foti, Rahul Nadkarni, Jiaqi Yin
+
+The spectral representation of time series provides valuable insights into the interactions
+within highly multivariate time series. We are actively developing and applying modern 
+statistical methods to perform inference in the spectral domain. Specifically, we have developed a
+Bayesian graphical model to uncover the conditional independencies of the set of time series and applied our algorithm
+to uncover graphs in both MEG neuroscience data and international stock indices. 
+
+Current related projects in the group include:
+<ol>
+<li> A convex optimization framework for uncovering time series graphs under 
+the presence of latent, unobserved time series using sparse plus low rank formulation and associated penalties. </li>
+<li> A low rank Bayesian 
+nonparametric method for time frequency estimation of the spectral density matrix for high dimensional
+locally stationary time series.</li>
+</ol>
+
+[Bayesian graphs of time series paper](http://arxiv.org/abs/1505.03131)
+
