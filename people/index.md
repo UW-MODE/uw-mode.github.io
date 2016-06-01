@@ -5,13 +5,15 @@ tags: []
 ---
 
 ## Faculty
-{%include _bio-template.html userid="ebfox" %}
 
 ## Postdoctoral Fellows
 
 {% include _bio-template.html userid="nfoti" %}
 
+{% include _bio-template.html userid="firem" %}
+
 {% include _bio-template.html userid="sameer" %}
+
 
 ## Graduate Students
 

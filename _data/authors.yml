@@ -33,6 +33,13 @@ yianma:
     avatar: yianma.jpg
     github: yianma
 
+firem:
+    name: Michael Fire
+    email: fire@cs.washington.edu
+    web: http://homes.cs.washington.edu/~fire/
+    bio: I am Moore/Sloan Data Science Postdoctoral Fellow and WRF Innovation Postdoctoral. My main research interests lie in data science, social networks analysis, and security and privacy.
+    avatar: firem.jpg
+
 atank:
     name: Alex Tank
     email:
