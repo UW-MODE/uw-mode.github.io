@@ -17,6 +17,14 @@
 #         sixth Federation starship to carry the name Enterprise.
 #     avatar: TNGEnterprise.jpg
 
+ebfox:
+    name: Emily Fox
+    email: ebfox@stat.washington.edu
+    web: https://www.stat.washington.edu/~ebfox/
+    bio: Emily Fox is the Amazon Professor of Machine Learning in the Statistics Department at the University of Washington.  She received a S.B. in 2004 and Ph.D. in 2009 from the Department of Electrical Engineering and Computer Science at MIT.  She has been awarded a Sloan Research Fellowship (2015), an ONR Young Investigator award (2015), an NSF CAREER award (2014), the Leonard J. Savage Thesis Award in Applied Methodology (2009), and the MIT EECS Jin-Au Kong Outstanding Doctoral Thesis Prize (2009). Her research interests are in large-scale Bayesian dynamic modeling and computations.
+    avatar: ebfox.jpg
+    github: ebfox
+
 yianma:
     name: Yian Ma (Yi-An Ma)
     email: yianma@u.washington.edu
