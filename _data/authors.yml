@@ -17,6 +17,14 @@
 #         sixth Federation starship to carry the name Enterprise.
 #     avatar: TNGEnterprise.jpg
 
+ebfox:
+    name: Emily Fox
+    email: ebfox@stat.washington.edu
+    web: https://www.stat.washington.edu/~ebfox/
+    bio: Emily Fox is the Amazon Professor of Machine Learning in the Statistics Department at the University of Washington.  She received a S.B. in 2004 and Ph.D. in 2009 from the Department of Electrical Engineering and Computer Science at MIT.  She has been awarded a Sloan Research Fellowship (2015), an ONR Young Investigator award (2015), an NSF CAREER award (2014), the Leonard J. Savage Thesis Award in Applied Methodology (2009), and the MIT EECS Jin-Au Kong Outstanding Doctoral Thesis Prize (2009). Her research interests are in large-scale Bayesian dynamic modeling and computations.
+    avatar: ebfox.jpg
+    github: ebfox
+
 yianma:
     name: Yian Ma (Yi-An Ma)
     email: yianma@u.washington.edu
@@ -24,6 +32,13 @@ yianma:
     bio: I am a PhD student in applied math. My research interests are sampling methods for Bayesian inference, stochastic processes, dynamical systems, and nonequilibrium statistical mechanics.
     avatar: yianma.jpg
     github: yianma
+
+firem:
+    name: Michael Fire
+    email: fire@cs.washington.edu
+    web: http://homes.cs.washington.edu/~fire/
+    bio: I am Moore/Sloan Data Science Postdoctoral Fellow and WRF Innovation Postdoctoral. My main research interests lie in data science, social networks analysis, and security and privacy.
+    avatar: firem.jpg
 
 atank:
     name: Alex Tank
@@ -130,5 +145,12 @@ rahuln:
     bio: I am a PhD student in Computer Science and Engineering. I am interested in statistical machine learning applied to scientific data, particularly in neuroscience.
     avatar: rahuln.jpg
 
+guestrin:
+    name: Carlos Guestrin
+    email: guestrin@cs.washington.edu
+    web: http://homes.cs.washington.edu/~guestrin/
+    bio: Carlos Guestrin is the Amazon Professor of Machine Learning in Computer Science & Engineering at the University of Washington and the cofounder and CEO of Dato. His previous positions include the Finmeccanica Associate Professor at Carnegie Mellon University and senior researcher at the Intel Research Lab in Berkeley. Carlos' work has been recognized by over a dozen best-paper awards at top conferences and journals. He is also a recipient of the Alfred P. Sloan Fellowship, IBM Faculty Fellowship, IJCAI Computers and Thought Award, and the Presidential Early Career Award for Scientists and Engineers (PECASE). Carlos was named one of the 2008 Brilliant 10 by Popular Science and is a former member of the Information Sciences and Technology (ISAT) advisory group for DARPA.
+    avatar: guestrin-head.jpg
+    github: guestrin
 
 
