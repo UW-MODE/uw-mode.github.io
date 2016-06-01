@@ -129,5 +129,12 @@ chohyu:
     bio: Hyunsu is a 1st year PhD in Computer Science and Engineering.
     avatar: hyunsu-head.jpg
 
+guestrin:
+    name: Carlos Guestrin
+    email: guestrin@cs.washington.edu
+    web: http://homes.cs.washington.edu/~guestrin/
+    bio: Carlos Guestrin is the Amazon Professor of Machine Learning in Computer Science & Engineering at the University of Washington and the cofounder and CEO of Dato. His previous positions include the Finmeccanica Associate Professor at Carnegie Mellon University and senior researcher at the Intel Research Lab in Berkeley. Carlos' work has been recognized by over a dozen best-paper awards at top conferences and journals. He is also a recipient of the Alfred P. Sloan Fellowship, IBM Faculty Fellowship, IJCAI Computers and Thought Award, and the Presidential Early Career Award for Scientists and Engineers (PECASE). Carlos was named one of the 2008 Brilliant 10 by Popular Science and is a former member of the Information Sciences and Technology (ISAT) advisory group for DARPA.
+    avatar: guestrin-head.jpg
+    github: guestrin
 
 
