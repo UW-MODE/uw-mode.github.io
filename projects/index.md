@@ -24,7 +24,7 @@ However, such stochastic gradient MCMC samplers have lagged behind their full-da
 ### [LIME: Local Interpretable Model-Agnostic Explanations](https://github.com/marcotcr/lime)
 
 This project is about explaining the predictions of **black-box** models in an
-**interpretable** and **faithful** way. 
+**interpretable** and **faithful** way.
 Understanding why a model makes certain predictions empowers users to decide
 whether they should trust the prediction or not.
 A system designer who understands why their model is making certain predictions is
@@ -34,9 +34,9 @@ parameter tuning, or even by replacing the model with a different one.
 We have an open source python package (linked below). Right now, we support text
 and tabular data models. All we require is that the classifier implements a
 function that takes in raw text or a numpy array and outputs a probability for
-each class. Support for scikit-learn classifiers is built-in.  
-[Project link (github)](https://github.com/marcotcr/lime)  
-[Blog post with high level view](http://homes.cs.washington.edu/~marcotcr/blog/lime/)  
+each class. Support for scikit-learn classifiers is built-in.
+[Project link (github)](https://github.com/marcotcr/lime)
+[Blog post with high level view](http://homes.cs.washington.edu/~marcotcr/blog/lime/)
 [Pre-print paper](http://arxiv.org/abs/1602.04938)
 
 ### [Injecting Logical Knowledge into Factorization](logicmf)
