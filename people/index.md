@@ -6,6 +6,8 @@ tags: []
 
 ## Faculty
 
+{%include _bio-template.html userid="guestrin" %}
+
 ## Postdoctoral Fellows
 
 {% include _bio-template.html userid="nfoti" %}
