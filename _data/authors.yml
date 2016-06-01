@@ -136,6 +136,15 @@ chohyu:
     bio: Hyunsu is a 1st year PhD in Computer Science and Engineering.
     avatar: hyunsu-head.jpg
 
+rahuln:
+    name: Rahul Nadkarni
+    email: rahuln@cs.washington.edu
+    web: https://homes.cs.washington.edu/~rahuln
+    github: rnadkarni
+    linkedin: rahulsnadkarni
+    bio: I am a PhD student in Computer Science and Engineering. I am interested in statistical machine learning applied to scientific data, particularly in neuroscience.
+    avatar: rahuln.jpg
+
 guestrin:
     name: Carlos Guestrin
     email: guestrin@cs.washington.edu
