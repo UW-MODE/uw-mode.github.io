@@ -5,14 +5,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>About the lab &#8211; UW Mode Lab</title>
+<title>UW Mode Lab</title>
 
 <meta name="keywords" content="">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="About the lab">
+<meta name="twitter:title" content="UW Mode Lab">
 
 
 
@@ -23,9 +23,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="About the lab">
+<meta property="og:title" content="UW Mode Lab">
 
-<meta property="og:url" content="/about/">
+<meta property="og:url" content="/projects/gmts.html">
 <meta property="og:site_name" content="UW Mode Lab">
 
 <meta property="og:image" content="/images/default-thumb.png">
@@ -35,7 +35,7 @@
 
 
 
-<link rel="canonical" href="/about/">
+<link rel="canonical" href="/projects/gmts.html">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="UW Mode Lab Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -168,9 +168,35 @@ MathJax.Hub.Config({
 
   </div>
   <article class="page">
-    <h1>About the lab</h1>
+    <h1></h1>
     <div class="article-wrap">
-      
+      <h2>Graphical Models of Time Series Using Fourier Representations</h2>
+
+<p>The spectral approach to multivariate time series provides rich information about the magnitude and
+frequency range of interactions between time series and is a popular approach to inferring neural connectivity and interactions
+in nueroscience. The key object in this field is the <strong>spectral density matrix</strong>, which captures the magnitude of interaction between time series pairs
+at each frequency. Our research in this area aims to deploy modern statistical techniques to this classical field. One line of work
+leverages simple properties of the spectral density to infer conditional indepenence graphical models of time series. In doing so, we
+deploy Bayesian graphical model selection using hyper Markov priors over the spectral density matrices. By marginalizing out the high dimensional spectral
+densities we are able to perfom inference directly on the time series graph.</p>
+
+<p>One current project in the group explores time series graphical model selection under the presence of unobserved, latent time series.
+To tackle this problem we have developed a convex optimization framework that models the spectral densities as a sum of sparse and low rank
+contributions. The low rank part captures the effects of latent confounders, while the sparse part captures the true conditional independence graph
+of the observed time series.</p>
+
+<p>The other project develops a low rank Baysian nonparametric model for estimation of the spectral density matrices for high dimensional
+non-stationary time series. We use the framework of locally stationary time series to cast this problem as a high dimensional time frequency
+regularization. In the locally stationary, high dimensional setting there are many more time series than the length of approximately stationary
+time windows, so that low rank regularization combined with smoothing over time and frequency become essential.</p>
+
+<h2>Publications</h2>
+
+<ul>
+<li><a href="http://arxiv.org/abs/1505.03131">Bayesian Structure Learning for Stationary Time Series</a>
+Alex Tank, Nick Foti, Emily Fox <em>UAI 2015</em></li>
+</ul>
+
       
     </div><!-- /.article-wrap -->
     

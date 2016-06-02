@@ -113,6 +113,16 @@ MathJax.Hub.Config({
 				    
 				    <li><a href="/publications/" >Publications</a></li>
 				
+				    
+				        
+				    
+				    <li><a href="/software/" >Software</a></li>
+				
+				    
+				        
+				    
+				    <li><a href="/teaching/" >Teaching</a></li>
+				
 		    </ul>
 		</nav>
 	</div><!-- /.top-navigation -->
@@ -180,7 +190,7 @@ However, such stochastic gradient MCMC samplers have lagged behind their full-da
 <h3><a href="https://github.com/marcotcr/lime">LIME: Local Interpretable Model-Agnostic Explanations</a></h3>
 
 <p>This project is about explaining the predictions of <strong>black-box</strong> models in an
-<strong>interpretable</strong> and <strong>faithful</strong> way. 
+<strong>interpretable</strong> and <strong>faithful</strong> way.
 Understanding why a model makes certain predictions empowers users to decide
 whether they should trust the prediction or not.
 A system designer who understands why their model is making certain predictions is
@@ -190,10 +200,48 @@ parameter tuning, or even by replacing the model with a different one.</p>
 <p>We have an open source python package (linked below). Right now, we support text
 and tabular data models. All we require is that the classifier implements a
 function that takes in raw text or a numpy array and outputs a probability for
-each class. Support for scikit-learn classifiers is built-in.<br>
-<a href="https://github.com/marcotcr/lime">Project link (github)</a><br>
-<a href="http://homes.cs.washington.edu/%7Emarcotcr/blog/lime/">Blog post with high level view</a><br>
+each class. Support for scikit-learn classifiers is built-in.
+<a href="https://github.com/marcotcr/lime">Project link (github)</a>
+<a href="http://homes.cs.washington.edu/%7Emarcotcr/blog/lime/">Blog post with high level view</a>
 <a href="http://arxiv.org/abs/1602.04938">Pre-print paper</a></p>
+
+<h3><a href="logicmf">Injecting Logical Knowledge into Factorization</a></h3>
+
+<p>Matrix factorization approaches to relation extraction provide several attractive features: they support distant supervision, handle open schemas, and leverage unlabeled data. Unfortunately, these methods share a shortcoming with all other distantly supervised approaches: they cannot learn to extract target relations without existing data in the knowledge base, and likewise, these models are inaccurate for relations with sparse data. Rule-based extractors, on the other hand, can be easily extended to novel relations and improved for existing but inaccurate relations, through first-order formulae that capture auxiliary domain knowledge. However, usually a large set of such formulae is necessary to achieve generalization.
+In this paper, we introduce a paradigm for learning low-dimensional embeddings of entity-pairs and relations that combine the advantages of matrix factorization with first-order logic domain knowledge. We introduce simple approaches for estimating such embeddings, as well as a novel training algorithm to jointly optimize over factual and first-order logic information. Our results show that this method is able to learn accurate extractors with little or no distant supervision alignments, while at the same time generalizing to textual patterns that do not appear in the formulae.</p>
+
+<p><a href="logicmf">Project link</a></p>
+
+<h3><a href="gmts">Graphical Models for Time Series Using Fourier Representations</a></h3>
+
+<p>MODE members: Alex Tank, Nick Foti, Rahul Nadkarni, Jiaqi Yin</p>
+
+<p>The spectral representation of time series provides valuable insights into the interactions
+within highly multivariate time series. We are actively developing and applying modern
+statistical methods to perform inference in the spectral domain. Specifically, we have developed a
+Bayesian graphical model to uncover the conditional independencies of the set of time series and applied our algorithm
+to uncover graphs in both MEG neuroscience data and international stock indices.</p>
+
+<p>Current related projects in the group include:
+- A convex optimization framework for uncovering time series graphs under
+  the presence of latent, unobserved time series using sparse plus low rank formulation and associated penalties. </li>
+- A low rank Bayesian
+  nonparametric method for time frequency estimation of the spectral density matrix for high dimensional
+ locally stationary time series.</p>
+
+<p><a href="http://arxiv.org/abs/1505.03131">Bayesian graphs of time series paper</a></p>
+
+<h3><a href="http://homes.cs.washington.edu/%7Efire/reddatait/">Reddatait: Analyzing over a TB of Reddit Comments to Construct the Largest Publicly Available Social Network Evolution Dataset</a></h3>
+
+<p><img src="../images/reddatait.jpg" width=150/></p>
+
+<p>We used the recently published Reddit dataset, containing over 1.65 billion comments, to construct the largest publicly available social network corpus to date.  This dataset contains detailed information on the evolution process of 11,965 social networks of various scales.  This dataset opens the door for new and exciting research opportunities in a variety of fields, such as social networks analysis, social network security and privacy, and complex networks.</p>
+
+<p><a href="https://medium.com/@michael.fire/reddatait-analyzing-over-a-tb-of-reddit-comments-to-construct-the-largest-publicly-available-83f2c234f5fd#.5imyp5b7z">Blog Post</a></p>
+
+<p><a href="http://homes.cs.washington.edu/%7Efire/reddatait/">Project Page</a>
+<a href="http://homes.cs.washington.edu/%7Efire/reddatait/data.html">Dataset (11,965 social networks, ~9.2 GB compressed)</a>
+<a href="http://homes.cs.washington.edu/%7Efire/pdf/reddatait.pdf">Pre-print paper</a></p>
 
       
     </div><!-- /.article-wrap -->
