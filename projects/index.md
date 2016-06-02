@@ -76,3 +76,17 @@ We used the recently published Reddit dataset, containing over 1.65 billion comm
 [Project Page](http://homes.cs.washington.edu/~fire/reddatait/)
 [Dataset (11,965 social networks, ~9.2 GB compressed)] (http://homes.cs.washington.edu/~fire/reddatait/data.html)
 [Pre-print paper](http://homes.cs.washington.edu/~fire/pdf/reddatait.pdf)
+
+
+
+### [Exploiting Piecewise Structure for Scalable Optimization](piecewise_optimization.html)
+
+Scalable optimization methods are critical for many machine learning applications.
+Moreover, many optimization problems exhibit useful structure at the solution.
+For example, in sparse regression problems, the optimal model makes predictions using only a subset of features, ignoring the model's remaining inputs completely.
+<br />
+<br />
+The goal of this project is to design principled, efficient, and versatile optimization methods by exploiting the specific structure of a problem.
+<br />
+<br />
+[Project link](piecewise_optimization.html)
