@@ -38,3 +38,18 @@ each class. Support for scikit-learn classifiers is built-in.
 [Project link (github)](https://github.com/marcotcr/lime)  
 [Blog post with high level view](http://homes.cs.washington.edu/~marcotcr/blog/lime/)  
 [Pre-print paper](http://arxiv.org/abs/1602.04938)
+
+
+### [Exploiting Piecewise Structure for Scalable Optimization](piecewise_optimization.html)
+
+Scalable optimization methods are critical for many machine learning applications.
+Moreover, many optimization problems exhibit useful structure at the solution.
+For example, in sparse regression problems, the optimal model makes predictions using only a subset of features, ignoring the model's remaining inputs completely.
+<br />
+<br />
+The goal of this project is to design principled, efficient, and versatile optimization methods by exploiting the specific structure of a problem.
+<br />
+<br />
+[Project link](piecewise_optimization.html)
+
+
