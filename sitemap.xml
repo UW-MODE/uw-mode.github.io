@@ -7,16 +7,16 @@
     <loc>/publications/</loc>
   </url>
   <url>
+    <loc>/teaching/</loc>
+  </url>
+  <url>
     <loc>/software/</loc>
   </url>
   <url>
-    <loc>/posts/</loc>
-  </url>
-  <url>
-    <loc>/projects/</loc>
-  </url>
-  <url>
     <loc>/about/</loc>
+  </url>
+  <url>
+    <loc>/posts/</loc>
   </url>
   <url>
     <loc>/</loc>
@@ -25,10 +25,13 @@
     <loc>/people/</loc>
   </url>
   <url>
-    <loc>/teaching/</loc>
+    <loc>/projects/</loc>
   </url>
   <url>
     <loc>/projects/logicmf.html</loc>
+  </url>
+  <url>
+    <loc>/projects/piecewise_optimization.html</loc>
   </url>
   <url>
     <loc>/projects/sgmcmc.html</loc>
