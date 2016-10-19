@@ -4,16 +4,16 @@
     <loc>/projects/gmts.html</loc>
   </url>
   <url>
-    <loc>/publications/</loc>
-  </url>
-  <url>
     <loc>/teaching/</loc>
   </url>
   <url>
     <loc>/software/</loc>
   </url>
   <url>
-    <loc>/about/</loc>
+    <loc>/publications/</loc>
+  </url>
+  <url>
+    <loc>/projects/</loc>
   </url>
   <url>
     <loc>/posts/</loc>
@@ -22,10 +22,10 @@
     <loc>/</loc>
   </url>
   <url>
-    <loc>/people/</loc>
+    <loc>/about/</loc>
   </url>
   <url>
-    <loc>/projects/</loc>
+    <loc>/people/</loc>
   </url>
   <url>
     <loc>/projects/logicmf.html</loc>
