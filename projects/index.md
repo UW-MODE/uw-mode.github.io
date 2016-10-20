@@ -63,6 +63,7 @@ Current related projects in the group include:
  locally stationary time series.
 
 [Bayesian graphs of time series paper](http://arxiv.org/abs/1505.03131)
+[Sparse plus low-rank time series for MEG data paper](http://www-bcf.usc.edu/~liu32/milets16/paper/MiLeTS_2016_paper_22.pdf)
 
 
 
