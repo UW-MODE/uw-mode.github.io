@@ -154,9 +154,9 @@ guestrin:
     github: guestrin
 
 cglynn:
-    names: Chris Glynn
+    name: Chris Glynn
     email: cdg28@washington.edu
     web:
     bio: Chris Glynn is a Postdoctoral Research Associate in the Mode Lab.  He is interested in Bayesian models and computational methods to aid decision-making in dynamic and uncertain environments.  Chris received his PhD from the Department of Statistical Science at Duke University in May 2016.  
-    avatar:
+    avatar: CGlynn.jpg
     github: G-Lynn
