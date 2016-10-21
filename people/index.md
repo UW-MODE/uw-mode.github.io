@@ -15,6 +15,8 @@ tags: []
 
 {% include _bio-template.html userid="firem" %}
 
+{% include _bio-template.html userid="cglynn" %}
+
 {% include _bio-template.html userid="sameer" %}
 
 
