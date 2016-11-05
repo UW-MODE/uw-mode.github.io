@@ -4,6 +4,11 @@ title: Projects
 tags: []
 ---
 
+### [Granger Causality for Multivariate Time Series](gcts)
+
+
+### [Variational Inference for Large Scale Learning](gcts)
+
 ### [XGBoost: A Scalable Tree Boosting System](http://dmlc.cs.washington.edu/xgboost.html)
 
 XGBoost is an optimized distributed gradient boosting system that comes with both algorithmic and system improvements.
