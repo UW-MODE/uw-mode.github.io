@@ -1,0 +1,25 @@
+# Site navigation links
+
+
+#- name: Blog # Hiding Blog For Now
+#  url: 
+#  rank:
+
+- name: About
+  url: "#about"
+  rank: 1
+
+- name: Team
+  url: "#team"
+  rank: 2
+
+- name: Projects
+  url: "#projects"
+  rank: 3
+
+- name: Publications
+  url: "#publications"
+  rank: 4
+
+# - name: Software # Hiding link to GitHub for now
+#  url: https://github.com/uw-mode

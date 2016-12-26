@@ -1,0 +1,32 @@
+---
+---
+{% if entry.link %}
+
+<a href="{{ entry.link }}">{{ entry.title }}</a>
+
+{% else %}
+
+<a href="{{ site.url }}/pdf/{{ entry.key }}.pdf">{{ entry.title }}</a>
+
+{% endif %}
+
+</br>
+{{ entry.author }}
+
+</br>
+
+{{ entry.booktitle }} {{ entry.year }}
+
+</br>
+
+<details>
+
+    <summary>BibTeX</summary>
+
+    <pre> {{ entry.bibtex }} </pre>
+
+</details>
+
+{% if entry.code %}
+[<a href="{{entry.code}}"> Code </a>]
+{% endif %}
