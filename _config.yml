@@ -32,8 +32,8 @@ scholar:
   style: apa
   locale: en
 
-  sort_by: year
-  order: descending
+  sort_by: year, booktitle, author
+  order: descending, descending, ascending 
 
   source: ./_data
   bibliography: publications.bib
@@ -51,4 +51,6 @@ scholar:
   repository: ./pdf
 
 
-
+# Include/Exclude
+include:
+exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "build.sh","deploy-to-master.sh"]

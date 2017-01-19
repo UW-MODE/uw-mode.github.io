@@ -1,32 +1,25 @@
 ---
 ---
 {% if entry.link %}
-
-<a href="{{ entry.link }}">{{ entry.title }}</a>
-
+<u><a href="{{ entry.link }}">{{ entry.title }}</a></u>.
 {% else %}
-
-<a href="{{ site.url }}/pdf/{{ entry.key }}.pdf">{{ entry.title }}</a>
-
+<u>{{ entry.title }}</u>.
 {% endif %}
 
-</br>
 {{ entry.author }}
 
-</br>
+{% if entry.booktitle %}
+<i>{{ entry.booktitle }}</i>.
+{% endif %}
 
-{{ entry.booktitle }} {{ entry.year }}
-
-</br>
-
-<details>
-
-    <summary>BibTeX</summary>
-
-    <pre> {{ entry.bibtex }} </pre>
-
-</details>
+{{ entry.year }}.
 
 {% if entry.code %}
-[<a href="{{entry.code}}"> Code </a>]
+[<a href="{{ entry.code }}"> Code </a>]
 {% endif %}
+
+<details>
+    <summary>BibTeX</summary>
+    <pre> {{ entry.bibtex }} </pre>
+</details>
+
