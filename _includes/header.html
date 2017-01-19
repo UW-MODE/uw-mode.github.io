@@ -1,0 +1,19 @@
+<!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <!--
+                <div class="intro-lead-in">Welcome To Our Studio!</div>
+                -->
+                <div class="intro-heading">{{ site.data.header.message }}</div>
+                <a href={{ site.data.header.button-link }} 
+                     class="page-scroll btn btn-xl">{{ site.data.header.button }}</a>
+            </div>
+        </div>
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
+

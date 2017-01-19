@@ -1,0 +1,16 @@
+<!-- Team Section -->
+<section id="publications">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Papers</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    {% capture my_include %}{% include publications.md %}{% endcapture %}
+                    {{ my_include | markdownify }}
+                </div>
+            </div>
+    </div>
+</section>

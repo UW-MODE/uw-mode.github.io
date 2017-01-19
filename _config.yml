@@ -1,52 +1,42 @@
-# Site wide configuration
+url: 
+baseurl: 
 
-title:            UW Mode Lab
-locale:           en_US
-url:
+# Site settings
+title: UW Mode Lab
+email: 
+description: "Emily B. Fox and Carlos Guestrin's research group at the University of Washington."
 
 
-# Jekyll configuration
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/uw-mode/
+  - title: github-alt
+    url: http://github.com/dynamode/
 
-permalink:   /:categories/:title/
-markdown:    redcarpet
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 
+#  - line: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
 gems:
   - jekyll-sitemap
   - jekyll/scholar
-
-# Site owner
-owner:
-  name: UW Mode Lab
-  avatar: W-Logo_Purple_Hex.png
-  bio: "Emily B. Fox and Carlos Guestrin's research group at the University of Washington."
-  email:
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: UW-MODE #username
-  stackoverflow: #123456/username from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
 
 # Jekyll Scholar Bibtex Formatting
 scholar:
   style: apa
   locale: en
 
-  sort_by: year
-  order: descending
+  sort_by: year, booktitle, author
+  order: descending, descending, ascending 
 
-  source: ./_bibliography
-  bibliography: pubs.bib
+  source: ./_data
+  bibliography: publications.bib
   bibliography_template: bib
 
   replace_strings: true
@@ -60,6 +50,7 @@ scholar:
 
   repository: ./pdf
 
-# Other Stuff
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md","build.sh","update-master.sh"]
+
+# Include/Exclude
+include:
+exclude: ["Rakefile", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "build.sh","deploy-to-master.sh"]

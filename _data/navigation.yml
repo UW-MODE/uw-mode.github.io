@@ -1,28 +1,27 @@
 # Site navigation links
 
-- title: Home
-  url: /
 
-#- title: About # About page is redundant
-#  url: /about/
+#- name: Blog # Hiding Blog For Now
+#  url: 
+#  rank:
 
-#- title: Blog # Hiding Blog For Now
-#  url: /posts/
+- name: About
+  url: "#about"
+  rank: 1
 
-- title: People
-  url: /people/
+- name: Team
+  url: "#team"
+  rank: 2
 
-- title: Projects
-  url: /projects/
+  #- name: Projects
+  #  url: "#projects"
+  #  rank: 3
 
-- title: Publications
-  url: /publications/
+- name: Publications
+  url: "#publications"
+  rank: 4
 
-- title: Software
-  url: /software/
+- name: Software
+  url: "https://github.com/UW-MODE"
+  rank: 5
 
-- title: Teaching
-  url: /teaching/
-
-# - title: Software # Hiding link to GitHub for now
-#  url: https://github.com/uw-mode

@@ -1,0 +1,40 @@
+# Project names, description and links
+#
+# !!!!!!!!!!!!! This is still under construction !!!!!!!!!!!!!!!!!!!!!
+#
+# Should be of the form
+#
+# name: project_name
+# members: 
+#   - name: member name 
+#   List of member names 
+# date: date of project (for appearance order)
+# icon: project icon or picture (optional)
+# pagename: project page name (in /projects folder)
+# oneline: short description of project
+#
+
+- name: Project 1
+  members:
+      - name: Member 1
+      - name: Member 2
+  date: 2012
+  icon: project1.jpg
+  pagename: project1
+  oneline: The first project.
+
+- name: Project 2
+  members:
+      - name: Member 1
+      - name: Member 3
+  date: 2015
+  pagename: project2
+  oneline: The second project.
+
+- name: Project 3
+  members:
+      - name: Member 3
+  date: 2014
+  icon: project3.jpg
+  pagename: project3
+  oneline: The third project.
