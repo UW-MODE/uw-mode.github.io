@@ -41,7 +41,7 @@
         bio: Nick Foti is a Washington Research Foundation Innovation Postdoctoral Fellow in data science and neuroengineering. His research focuses on developing Bayesian models for high-dimensional time series and scalable inference algorithms.
         social:
           - title: website
-            url: foti_self.jpg
+            url: https://nfoti.github.io/
           - title: github
             url: https://github.com/nfoti
 
