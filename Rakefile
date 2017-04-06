@@ -40,12 +40,17 @@ task :deploy do
   status = system("git commit -m \"#{message}\"")
   puts status ? "Success" : "Failed"
   if not status then exit end
-  puts "\n## Pushing commits to remote #{production_branch}"
+  puts "\n## Pushing #{production_branch} branch commits to remote"
   status = system("git push origin #{production_branch}")
   puts status ? "Success" : "Failed"
   if not status then exit end
 
   puts "\n## Switching back to #{source_branch} branch"
   status = system("git checkout #{source_branch}")
+  puts status ? "Success" : "Failed"
+  if not status then exit end
+
+  puts "\n## Pushing #{source_branch} branch commits to remote"
+  status = system("git push")
   puts status ? "Success" : "Failed"
 end
