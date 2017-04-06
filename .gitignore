@@ -1,3 +1,4 @@
+# Ignore jekyll built site
 _site
 
 # Windows image file caches

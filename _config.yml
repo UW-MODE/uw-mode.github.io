@@ -21,7 +21,7 @@ social:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: rouge
 
 gems:
   - jekyll-sitemap
