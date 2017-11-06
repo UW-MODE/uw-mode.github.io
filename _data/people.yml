@@ -123,11 +123,11 @@
       bio: Rahul is a PhD student in Computer Science and Engineering. He is interested in statistical machine learning applied to scientific data, particularly in neuroscience.
       social:
         - title: website
-          url: https://homes.cs.washington.edu/~rahuln
+          url: http://rahuln.io
         - title: github
-          url: https://github.com/rnadkarni
+          url: https://github.com/rahuln
         - title: linkedin
-          url: htpps://www.linkedin.com/in/rahulsnadkarni
+          url: https://www.linkedin.com/in/rahulsnadkarni
 
     - first_name: Tianqi 
       last_name: Chen
