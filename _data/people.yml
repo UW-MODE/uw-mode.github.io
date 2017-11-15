@@ -45,7 +45,7 @@
           - title: github
             url: https://github.com/nfoti
 
-      - first_name: Chris 
+      - first_name: Chris
         last_name: Glynn
         pic: CGlynn.jpg
         position: Postdoctoral Associate
@@ -68,7 +68,7 @@
         - title: github
           url: https://github.com/yianma
 
-    - first_name: Alex 
+    - first_name: Alex
       last_name: Tank
       pic: atank.png
       position: Graduate Student
@@ -104,7 +104,7 @@
           url: https://github.com/chrisdxie
         - title: linkedin
           url: https://www.linkedin.com/in/chrisdxie
-    
+
     - first_name: Alec
       last_name: Greaves-Tunnell
       pic: alec_gt.jpg
@@ -129,7 +129,7 @@
         - title: linkedin
           url: https://www.linkedin.com/in/rahulsnadkarni
 
-    - first_name: Tianqi 
+    - first_name: Tianqi
       last_name: Chen
       pic: tqchen-head.jpg
       position: Graduate Student
@@ -149,7 +149,7 @@
         - title: website
           url: http://tbjohns.com
 
-    - first_name: Marco Tulio 
+    - first_name: Marco Tulio
       last_name: Ribeiro
       pic: marco-head.jpg
       position: Graduate Student
@@ -160,7 +160,7 @@
         - title: github
           url: marcotcr
 
-    - first_name: Hyunsu 
+    - first_name: Hyunsu
       last_name: Cho
       pic: hyunsu-head.jpg
       position: Graduate Student
@@ -168,6 +168,19 @@
       social:
         - title: website
           url: http://homes.cs.washington.edu/~chohyu01
+
+    - first_name: Samuel
+      last_name: Ainsworth
+      pic: sam.jpeg
+      position: Graduate Student
+      bio:
+      social:
+        - title: website
+          url: http://samlikes.pizza
+        - title: github
+          url: https://github.com/samuela
+        - title: linkedin
+          url: https://www.linkedin.com/in/samuelainsworth/
 
     - first_name: Ian 
       last_name: Covert
@@ -188,12 +201,10 @@
     - first_name: Sameer
       last_name: Singh
       pic: sameer-head.jpg
-      position: 
+      position:
       bio: Sameer is a Postdoctoral Research Associate in CSE working on interactive machine learning for large-scale information extraction and natural language processing.
-      social: 
+      social:
         - title: website
           url: http://sameersingh.org
         - title: github
           url: https://github.com/sameersingh
-
-
