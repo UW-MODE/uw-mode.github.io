@@ -169,6 +169,17 @@
         - title: website
           url: http://homes.cs.washington.edu/~chohyu01
 
+    - first_name: Ian 
+      last_name: Covert
+      pic: ian_covert.jpg
+      position: Graduate Student
+      bio: 
+      social:
+        - title: github
+          url: https://github.com/icc2115
+        - title: linkedin
+          url: https://www.linkedin.com/in/ian-covert-b93a6894/
+
 - group_name: Undergraduate Students
   members:
 
