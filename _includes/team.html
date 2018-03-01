@@ -11,7 +11,11 @@
             {% elsif group.members.size > 0 %}
                 <div class="row">
                     <h3 class="section-heading">{{ group.group_name }}</h3>
+                    {% if group.group_name == 'Co-directors' %}
+                    {% assign members = group.members %}
+                    {% else %}
                     {% assign members = group.members | sort: 'last_name' %}
+                    {% endif %}
                     <div id="team-row-wrap">
                     {% for member in members %}
                         <div class="col-sm-3">
