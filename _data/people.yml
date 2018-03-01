@@ -1,5 +1,5 @@
 # Team names, titles and social links
-- group_name: Faculty
+- group_name: Leadership
   members:
     - first_name: Emily
       last_name: Fox
@@ -23,36 +23,16 @@
         - title: github
           url: htpps://github.com/guestrin
 
-- group_name: Postdocs
-  members:
-      - first_name: Michael
-        last_name: Fire
-        pic: firem.jpg
-        position: Postdoctoral Fellow
-        bio: I am Moore/Sloan Data Science Postdoctoral Fellow and WRF Innovation Postdoctoral. My main research interests lie in data science, social networks analysis, and security and privacy.
-        social:
-          - title: website
-            url: http://homes.cs.washington.edu/~fire/
-
-      - first_name: Nicholas
-        last_name: Foti
-        pic: foti_self.jpg
-        position: Postdoctoral Fellow
-        bio: Nick Foti is a Washington Research Foundation Innovation Postdoctoral Fellow in data science and neuroengineering. His research focuses on developing Bayesian models for high-dimensional time series and scalable inference algorithms.
-        social:
-          - title: website
-            url: https://nfoti.github.io/
-          - title: github
-            url: https://github.com/nfoti
-
-      - first_name: Chris
-        last_name: Glynn
-        pic: CGlynn.jpg
-        position: Postdoctoral Associate
-        bio: Chris Glynn is a Postdoctoral Research Associate in the Mode Lab.  He is interested in Bayesian models and computational methods to aid decision-making in dynamic and uncertain environments.  Chris received his PhD from the Department of Statistical Science at Duke University in May 2016.
-        social:
-          - title: github
-            url: https://github.com/G-Lynn
+    - first_name: Nicholas
+      last_name: Foti
+      pic: foti_self.jpg
+      position: Research Scientist
+      bio: #Nick Foti is a Washington Research Foundation Innovation Postdoctoral Fellow in data science and neuroengineering. His research focuses on developing Bayesian models for high-dimensional time series and scalable inference algorithms.
+      social:
+        - title: website
+          url: https://nfoti.github.io/
+        - title: github
+          url: https://github.com/nfoti
 
 
 - group_name: Graduate Students
@@ -105,16 +85,16 @@
         - title: linkedin
           url: https://www.linkedin.com/in/chrisdxie
 
-    - first_name: Alec
-      last_name: Greaves-Tunnell
-      pic: alec_gt.jpg
-      position: Graduate Student
-      bio: Alec is a PhD student in Statistics interested in time series inference, particularly in the streaming setting. Before coming to Seattle, he was a Herchel Smith Scholar at the University of Cambridge, where he studied Computational Biology and Neuroscience.
-      social:
-        - title: github
-          url: https://github.com/alecgt
-        - title: linkedin
-          url: https://www.linkedin.com/in/alecgreavestunnell
+          #    - first_name: Alec
+          #      last_name: Greaves-Tunnell
+          #      pic: alec_gt.jpg
+          #      position: Graduate Student
+          #      bio: Alec is a PhD student in Statistics interested in time series inference, particularly in the streaming setting. Before coming to Seattle, he was a Herchel Smith Scholar at the University of Cambridge, where he studied Computational Biology and Neuroscience.
+          #      social:
+          #        - title: github
+          #          url: https://github.com/alecgt
+          #        - title: linkedin
+          #          url: https://www.linkedin.com/in/alecgreavestunnell
 
     - first_name: Rahul
       last_name: Nadkarni
@@ -160,14 +140,14 @@
         - title: github
           url: marcotcr
 
-    - first_name: Hyunsu
-      last_name: Cho
-      pic: hyunsu-head.jpg
-      position: Graduate Student
-      bio: Hyunsu is a 1st year PhD in Computer Science and Engineering.
-      social:
-        - title: website
-          url: http://homes.cs.washington.edu/~chohyu01
+          #    - first_name: Hyunsu
+          #      last_name: Cho
+          #      pic: hyunsu-head.jpg
+          #      position: Graduate Student
+          #      bio: Hyunsu is a 1st year PhD in Computer Science and Engineering.
+          #      social:
+          #        - title: website
+          #          url: http://homes.cs.washington.edu/~chohyu01
 
     - first_name: Samuel
       last_name: Ainsworth
@@ -208,3 +188,25 @@
           url: http://sameersingh.org
         - title: github
           url: https://github.com/sameersingh
+
+
+    - first_name: Michael
+      last_name: Fire
+      pic: firem.jpg
+      position: Postdoctoral Fellow
+      bio: I am Moore/Sloan Data Science Postdoctoral Fellow and WRF Innovation Postdoctoral. My main research interests lie in data science, social networks analysis, and security and privacy.
+      social:
+        - title: website
+          url: http://homes.cs.washington.edu/~fire/
+ 
+ 
+    - first_name: Chris
+      last_name: Glynn
+      pic: CGlynn.jpg
+      position: Postdoctoral Associate
+      bio: Chris Glynn is a Postdoctoral Research Associate in the Mode Lab.  He is interested in Bayesian models and computational methods to aid decision-making in dynamic and uncertain environments.  Chris received his PhD from the Department of Statistical Science at Duke University in May 2016.
+      social:
+        - title: github
+          url: https://github.com/G-Lynn
+
+
